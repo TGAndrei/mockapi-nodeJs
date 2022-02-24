@@ -1,26 +1,27 @@
 {
-  "name": "mockapi-nodejs",
+  "name": "node-js-basics",
   "version": "1.0.0",
-  "description": "",
+  "description": "1. Initialize npm project\r    `npm init -y`",
   "main": "app.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "startdev": "nodemon app.js"
+    "devStart": "nodemon app.js",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TGAndrei/mockapi-nodeJs.git"
+    "url": "git+https://github.com/TGAndrei/mockapi-nodeJs"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/TGAndrei/mockapi-nodeJs/issues"
-  },
   "homepage": "https://github.com/TGAndrei/mockapi-nodeJs#readme",
   "dependencies": {
+    "body-parser": "^1.19.2",
+    "dotenv": "^16.0.0",
     "express": "^4.17.3",
+    "mongoose": "^6.2.2",
     "nodemon": "^2.0.15"
   }
 }
